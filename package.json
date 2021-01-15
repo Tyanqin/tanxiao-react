@@ -11,6 +11,7 @@
     "antd": "^4.10.0",
     "axios": "^0.21.1",
     "craco-less": "^1.17.1",
+    "echarts-for-react": "^2.0.16",
     "jquery": "^3.5.1",
     "jquery-easing": "^0.0.1",
     "moment": "^2.29.1",
