@@ -12,7 +12,7 @@
 }
 .fixed_role_wrap_div_icon{
     position: absolute;
-    left:0.8rem;
+    left:2rem;
     width: 1.5rem;
     height: 0.9rem;
 }
@@ -24,15 +24,15 @@
 .fixed_role_wrap_div_info{
     position: absolute;
     top:0.7rem;
-    left:0.4rem;
+    left:1.53rem;
     width: 1.5rem;
-    height: 0.9rem;
+    height: 0.8rem;
     background: #FFFFFF;
     opacity: 1;
     text-align: center;
 }
 .fixed_role_wrap_div_info>p{
-    margin: 0.1rem 0 0 0;
+    margin: 0 0 0 0;
     color: #000000;
     font-size: 0.2rem;
 }
@@ -58,16 +58,15 @@
 }
 #page_Menu{
     position: fixed;
-    top: 0;
-    right: -505px;
+    top: 6px;
+    right: -500px;
     height: 0.5rem;
+    /*background-color: pink;*/
 }
 #page_Menu li{
-    line-height:0.5rem;
-    float: left;
     display: inline-block;
     margin-top:0.1rem ;
-    width: 150px;
+    width: 100px;
 }
 #page_Menu li>a{
     display: block;

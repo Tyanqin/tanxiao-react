@@ -1,6 +1,6 @@
 import React from 'react'
 import {connect} from 'react-redux'
-import EchartBarContainer from '../echarBarContainer/EchartBarContainer'
+import EchartLineContainer from '../echarLineContainer/EchartLineContainer'
 import { Tabs } from 'antd';
 import './css/index.css'
 const { TabPane } = Tabs;
@@ -20,10 +20,10 @@ export default connect(state=>({}),{})(
                         >
                             <TabPane tab="航运指数" key="1">
                                 <Tabs type="card">
-                                    <TabPane tab="图表" key="1">
-                                        {/*<EchartBarContainer/>*/}
+                                    <TabPane tab="图表" key="10">
+                                        <EchartLineContainer/>
                                     </TabPane>
-                                    <TabPane tab="表格" key="2">
+                                    <TabPane tab="表格" key="20">
                                         <p>Content of Tab Pane 2</p>
                                     </TabPane>
                                 </Tabs>

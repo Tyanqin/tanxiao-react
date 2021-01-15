@@ -1,31 +1,30 @@
-
 .fixed-nav-wrap{
     position: fixed;
     width: 2rem;
+    height: 400px;
+    top:200px;
     right: 0;
     bottom: 0;
     left:-2rem;
-    top:350px;
-    background-color: #FFFFFF;
+    /*background-color: aqua;*/
     font-size: 0.20rem;
     padding-left: 10px;
 }
 
 .fixed-nav-wrap-div{
     position: absolute;
-    width: 100%;
+    width: 97%;
     height: 50%;
     right: 0;
-    bottom: 0;
     left:5px;
-    top:0;
-    /*margin: auto;*/
+    top:90px;
+    margin: auto;
     /*background-color: red;*/
 }
 
 .level_1_menu_ul,
 .level_2_menu_ul{
-    margin: 0 0 0 0.2rem;
+    margin-left: 0.2rem;
     color:black;
 }
 
@@ -33,8 +32,9 @@
     color:#000000;
 }
 
-
-
+.level_2_menu_ul > a{
+    margin-top: 30px;
+}
 
 
 
@@ -62,5 +62,9 @@
 }
 .out-addition{
     z-index: 999;
+}
+
+.fixed-nav-wrap-div div{
+    background-color: pink;
 }
 

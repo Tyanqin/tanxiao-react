@@ -20,7 +20,7 @@ export default connect(
             let info = this.InfoRef.current
             let navigation = this.NavigationRef.current
             setTimeout( function(){
-                move(navigation,"right",50,5,5,null)
+                move(navigation,"right",140,5,2,null)
             },1000)
             setTimeout(function () {
                 fadeOutOpacity(info,15,null)
@@ -42,10 +42,8 @@ export default connect(
                            >&#xe6d5;</span>
                             </div>
                             <ul id="page_Menu" ref = {this.NavigationRef} >
-                                <li><a id = "0" href="#one" >一</a></li>
-                                <li><a id = "1" href="#two">二</a></li>
-                                <li><a id = "2" href="#three">三</a></li>
-                                <li><a id = "3" href="#four">四</a></li>
+                                <li><a id = "0" href="#" >监测系统</a></li>
+                                <li><a id = "1" href="#">督考系统</a></li>
                             </ul>
                         </div>
                     </div>
